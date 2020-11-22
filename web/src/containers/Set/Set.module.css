@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: var(--leftBorder);
+    padding-right: var(--rightBorder);
+}

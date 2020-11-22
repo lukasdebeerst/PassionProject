@@ -1,0 +1,11 @@
+:root {
+
+    /* colors */
+    --backgroundColor: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgba(32,37,41,1) 100%);
+    --headerBackgroundColor: black;
+    --textColor: white;
+
+    /* margins */
+    --leftBorder: 20px;
+    --rightBorder: 20px;
+}

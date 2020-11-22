@@ -1,0 +1,21 @@
+.container {
+    background-color: var(--headerBackgroundColor);
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: var(--leftBorder);
+    padding-right: var(--rightBorder);
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.time {
+    margin: 0;
+   
+}

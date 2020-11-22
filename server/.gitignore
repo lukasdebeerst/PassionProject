@@ -1,0 +1,8 @@
+localhost.crt
+localhost.key
+
+/node_modules
+.DS_Store
+
+/database/devices.db
+/videos
