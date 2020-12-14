@@ -1,0 +1,76 @@
+@import "./style/font.css";
+@import "./style/variables.css";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--backgroundColor);
+    color: var(--textColor);
+    font-family: "ubuntu", Arial, Helvetica, sans-serif;
+}
+
+.react-simple-keyboard {
+    color: black;
+    position: fixed;
+    bottom: 0;
+    /* align-self: flex-end; */
+}
+
+.input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--primaryColor);
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+h1, .title {
+    color: var(--primaryColor);
+    font-size: 40px;
+    margin: 5px;
+}
+
+.button {
+    color: var(--textColor);
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    padding: 10px 90px 10px 90px;
+    border-radius: 10px;
+}
+
+.primaryButton {
+    background-color: var(--primaryColor);
+}
+
+.secundaryButton {
+    background-color: var(--secundaryColor);
+}
+
+.sideBar {
+    background-color: var(--headerBackgroundColor);
+    min-width: 300px;
+    height: 100%;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.editorGrid00 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.editorGrid1 {
+    grid-row: 3;
+}
+
+.dropdown {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: solid 1px var(--primaryColor);
+    padding-bottom: 2px;
+}

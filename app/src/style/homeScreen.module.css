@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: 93vh;
+    
+}
+
+.content {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.sideBar {
+    grid-row: 1;
+    grid-column: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerWithKeyboard {
+    grid-row: 1;
+    grid-column: 1;
+    transform: translate(0, -20px);
+}

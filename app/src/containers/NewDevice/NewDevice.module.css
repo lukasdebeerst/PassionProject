@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+.highlight {
+    color: var(--primaryColor);
+}
+
+.element {
+    display: flex;
+    gap: 20px;
+    
+}

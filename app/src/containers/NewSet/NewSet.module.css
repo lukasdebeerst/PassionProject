@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.devices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: space;
+    margin-top: 20px;
+}
+
+.label {
+    padding: 20px;
+}
+
+.button {
+    color: var(--textColor);
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    padding: 10px 78px 10px 78px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.error {
+    color: #ff0033;
+}

@@ -1,0 +1,158 @@
+.setList {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 5px;
+    height: 10vh;
+}
+
+.setlistContainer{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--leftBorder);
+    padding-right: var(--rightBorder);
+    border-bottom: 1px solid white;
+}
+
+.editorContainer {
+    padding: var(--leftBorder);
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px 200px;
+    overflow-x: hidden;
+    
+}
+
+.editorContainer > * {
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+
+.whiteSpace {
+    grid-row: 1;
+    grid-column: 1;
+    /* background-color: black; */
+    border: none;
+}
+
+.gridItemSegment {
+    grid-row: 1;
+    /* background-color: black; */
+    border-top: none;
+}
+
+.gridItemDevice {
+    grid-column: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 200px;
+
+    /* background-color: black; */
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    border-left: none;
+
+}
+
+.gridItemSegmentPlus {
+    grid-row: 1;
+    max-width: 200px;
+    padding-top: 0;
+    /* background-color: black; */
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+
+
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.gridItemDevicePlus {
+    grid-column: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 200px;
+
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    border-left: none;
+    border-bottom: none;
+    gap: 10px;
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sideBar {
+    grid-row: 1;
+    grid-column: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.mediaElement0 {
+    grid-row: 1;
+}
+
+.mediaElement1 {
+    grid-row: 2;
+}
+
+.currentSong__title {
+    color: var(--primaryColor);
+}
+
+.plus {
+    font-size: 50px;
+}
+
+
+
+.song {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.selectSong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.addContent {
+    display: flex;
+    flex-flow: column;
+}
+
+.mediaResults {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}

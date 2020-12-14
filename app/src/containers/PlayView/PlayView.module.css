@@ -1,0 +1,28 @@
+.currentSegment {
+    color: var(--primaryColor);
+    margin-left: 10px;
+}
+
+.songTitle {
+    color: var(--primaryColor);
+    font-size: 28px;
+}
+
+.segment {
+    margin-left: 10px;
+}
+
+.container {
+    margin-left: var(--leftBorder);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 95vh;
+}
+
+.setlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

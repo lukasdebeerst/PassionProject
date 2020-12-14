@@ -1,0 +1,21 @@
+.device {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    margin: 10px;
+    margin-bottom: 20px;
+    color: var(--primaryColor);
+    
+}
+
+.devicesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px;
+}

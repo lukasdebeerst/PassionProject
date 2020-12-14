@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.content {
+    text-align: center ;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.devices {
+    margin-left: var(--leftBorder);
+    margin-right: var(--rightBorder);   
+}
+
+.devicesList {
+    display: flex;
+    gap: 30px;
+}
+
+.device {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

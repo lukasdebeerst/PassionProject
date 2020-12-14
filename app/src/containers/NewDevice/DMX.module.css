@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-left: var(--leftBorder);
+    margin-right: var(--rightBorder);
+}
+
+.lightContent {
+    display: flex;
+    flex-flow: column;
+    width: 40vw;
+    align-items: center;
+    gap: 5px;
+}
+
+.lightContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.deviceContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 93vh;
+}
+
+.title {
+    color: var(--primaryColor);
+}
+
+.deviceFrom {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+    width: 40vw;
+}
+
+.formLabel {
+    font-weight: bold;
+}
+
+.chooseLight__header {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 40vw;
+    align-items: center;
+}
+
+.chooseLight__header__plus{
+    font-size: 28px;
+}
+
+.chooseLight__lights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lightContent__input{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.submitButton {
+    width: 40vw;
+}

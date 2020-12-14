@@ -1,0 +1,25 @@
+.noSetContainer {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 5% 90% 5%;
+    width: 95%;
+    align-items: center;
+    padding-left: var(--leftBorder);
+    padding-right: var(--rightBorder);
+}
+
+.set {
+    display: flex;
+    flex-flow: column;
+    align-items: space-between;
+    gap: 40px;
+    margin-top: 10px;
+}

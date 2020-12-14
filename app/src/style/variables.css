@@ -1,0 +1,14 @@
+:root {
+
+    /* colors */
+    /* --backgroundColor: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgba(32,37,41,1) 100%); */
+    --backgroundColor: #21262B;
+    --headerBackgroundColor: black;
+    --textColor: white;
+    --primaryColor: #1BC6B4;
+    --secundaryColor: #CC3453;
+
+    /* margins */
+    --leftBorder: 20px;
+    --rightBorder: 20px;
+}
