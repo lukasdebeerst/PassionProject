@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="library/effects/seriously.tvglitch.js"></script>
+    <script type="module" src="library/effects/seriously.ascii.js"></script>
+    <script type="module" src="library/effects/seriously.noise.js"></script>
+    <script type="module" src="library/effects/seriously.nightvision.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Screen</title>
+</head>
+<body >
+    <div id="videoContainer">
+        <video class="player" width="100%" id="video" loop autoplay muted></video>
+        <video class="player" width="100%" id="livestream" loop autoplay muted controls></video>
+    </div>
+    <canvas class="player" id="effect"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-peer/9.7.2/simplepeer.min.js" integrity="sha512-RZlErEuUwWv3EhGNhvni9vinu0QPwNU0OyWAlhTeezEToTZu/C+/Mn7ItRFmpcf8MTK0J2kRalSfzrpQqF7wJQ==" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./library/seriously.js"></script>
+    <script type="module" src="index.js" ></script>
+</body>
+</html>
